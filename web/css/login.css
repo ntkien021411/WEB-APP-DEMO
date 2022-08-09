@@ -1,0 +1,134 @@
+* {
+    /*Tham chiếu tới tất cả các thẻ */
+    /* Emmet */
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html {
+    font-family: "Montserrat", sans-serif;
+    /* xét dạng dữ không chân cho toàn bộ content  */
+    /* scroll-behavior: smooth; */
+}
+body {
+    background-color: #f1f1f1;
+}
+
+.sign-form {
+    width: 80%;
+    height: 80%;
+    /* background-color: aqua; */
+    position: absolute;
+    top: 10%;
+    left: 10%;
+}
+.login-form {
+    background-image: url(../img/login/pexels-photo-2469122.jpeg);
+    /* width: 50px; */
+}
+.sign-in h3 {
+    color: #fff;
+    font-weight: 400;
+}
+.sign-in {
+    font-size: 25px;
+    padding: 40px 40px 40px 20px;
+}
+label {
+    color: rgba(255, 255, 255, 0.7);
+    font-size: 12px;
+    padding: 20px;
+    margin-left: 24px;
+}
+label:hover {
+    color: #fff;
+}
+input {
+    padding: 10px;
+    margin-left: 25px;
+    border-radius: 10px;
+    opacity: 0.5;
+    background: rgba(255, 255, 255, 0.1);
+    border: 2px solid rgba(255, 255, 255, 0);
+    overflow: hidden;
+    transition: all 0.7s ease-in-out;
+    color: #fff;
+    font-weight: 800;
+}
+::placeholder{
+    color: #fff !important;
+}
+input:focus {
+    outline: 0;
+    border: 2px solid #fff;
+    border-radius: 20px;
+    background: rgba(0, 0, 0, 0);
+    opacity: 1;
+}
+.btn-sign-in button {
+    padding: 10px;
+    margin-left: 25px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    border-radius: 10px;
+    background-color: #1161ed;
+    transition: all 0.5s ease-in-out;
+    border: none;
+    color: #fff;
+}
+.btn-sign-in:hover button{
+    background: #4082f5;
+    box-shadow: 0px 4px 35px -5px #4082f5;
+    cursor: pointer;
+}
+.label1,
+.label2 {
+    margin-bottom: 20px;
+}
+
+
+
+
+.register-form{
+    background-image: url(../img/login/pexels-photo-346529.webp);
+
+}
+.btn-sign-up button {
+    padding: 10px;
+    margin-left: 25px;
+    margin-bottom: 20px;
+    margin-top: 40px;
+    border-radius: 10px;
+    background-color: #2ee5e4c7;
+    transition: all 0.5s ease-in-out;
+    border: none;
+    color: #fff;
+}
+.btn-sign-up button a{
+    text-decoration: none;
+    color: #fff;
+}
+.btn-sign-up:hover button{
+    background: #2ee5e4c7;
+    box-shadow: 0px 4px 35px -5px #2ee5e4c7;
+    cursor: pointer;
+}
+.header1 h3{
+    margin-top: 100px;
+    color: #fff;
+    font-weight: 600;
+    font-size: 30px;
+    padding: 40px 40px 20px 20px;
+    text-align: center;
+
+}
+.header2 h5 {
+    margin-top: 20px;
+    color: #fff;
+    font-size: 15px;
+    text-align: center;
+    font-weight: 400;
+    margin-left: 5px;
+}
+
+
