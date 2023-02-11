@@ -613,6 +613,7 @@
                             <li><a href="InforShop">Shop</a></li>
                             </c:if>
                         <li><a href="logout?logout=ok">Exit</a></li>
+                        <!--gach cheo hay ko deu dc--> 
                     </ul>
                 </i>
 
@@ -766,6 +767,7 @@
         <script >
 //        function submit(img, s, ipt,pt) {
 //            window.location = "sort?" + img + "=" + s + "&trans=" + ipt + "&price=" + pt ;
+            // gach cheo truoc sort hay ko gach  cheo deu dc
 //        }
 //        ;
 //        var pt = document.getElementById("priceType");
